@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Zevas\\source\\repos\\Site1\\Site1\\Site1.csproj": {}
+    "C:\\Users\\Zevas\\source\\repos\\TestLayout\\Site1\\Site1\\Site1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Zevas\\source\\repos\\Site1\\Site1\\Site1.csproj": {
+    "C:\\Users\\Zevas\\source\\repos\\TestLayout\\Site1\\Site1\\Site1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Zevas\\source\\repos\\Site1\\Site1\\Site1.csproj",
+        "projectUniqueName": "C:\\Users\\Zevas\\source\\repos\\TestLayout\\Site1\\Site1\\Site1.csproj",
         "projectName": "Site1",
-        "projectPath": "C:\\Users\\Zevas\\source\\repos\\Site1\\Site1\\Site1.csproj",
+        "projectPath": "C:\\Users\\Zevas\\source\\repos\\TestLayout\\Site1\\Site1\\Site1.csproj",
         "packagesPath": "C:\\Users\\Zevas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Zevas\\source\\repos\\Site1\\Site1\\obj\\",
+        "outputPath": "C:\\Users\\Zevas\\source\\repos\\TestLayout\\Site1\\Site1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

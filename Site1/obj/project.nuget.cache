@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Po4p7AXNl0wDmMs0q/OA+QntDzrnHE4vwT5mb5XvYh0y2FhmfEvSmJu27OeuniR6I3dX6VwD72u2Ic0gOnJZ1g==",
+  "dgSpecHash": "dbS864cLT/nMQJAQtvkXMTF2KvX52/fpBErxyZE9g95KuU+9jVr19geG2IxIO70ckPRD09gccnYCuq/7X/moBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Zevas\\source\\repos\\Site1\\Site1\\Site1.csproj",
+  "projectFilePath": "C:\\Users\\Zevas\\source\\repos\\TestLayout\\Site1\\Site1\\Site1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Zevas\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
   ],
