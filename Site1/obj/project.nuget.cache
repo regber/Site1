@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Po4p7AXNl0wDmMs0q/OA+QntDzrnHE4vwT5mb5XvYh0y2FhmfEvSmJu27OeuniR6I3dX6VwD72u2Ic0gOnJZ1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Zevas\\source\\repos\\Site1\\Site1\\Site1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Zevas\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.23\\microsoft.netcore.app.host.win-x64.3.1.23.nupkg.sha512"
+  ],
+  "logs": []
+}
