@@ -166,7 +166,7 @@ p {
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), inset -1px 2px 0px rgba(0, 0, 0, 0.3);
 }
 
-.left-column, .left-column a {
+.left-column, .left-column li>a {
     font-family: Arial;
     font-size: 13px;
     font-weight: 600;
@@ -188,7 +188,7 @@ p {
 
 
 .left-column ul {
-    margin-left: -40px;
+    margin-left: -30px;
     list-style-type: none;
 }
 
@@ -228,6 +228,36 @@ p {
 
 .left-column ul>li>ul>li {
     padding-left:21px;
+}
+
+.left-column.notify {
+    padding: 16px 8px 14px 8px;
+}
+.left-column.notify .notify-header {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: normal;
+}
+
+.left-column.notify .notify-message {
+    font-style: italic;
+    margin: 18px 0;
+    letter-spacing:-0.6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.left-column.notify .notify-link {
+    text-align:end;
+}
+
+.left-column.notify .notify-link a {
+    text-decoration:underline;
+    display:initial;
+    padding-right:16px;
 }
 
 .footer {
