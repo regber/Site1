@@ -151,8 +151,63 @@ p {
 .container {
     border-radius: 4px;
     background-color: rgba(87, 103, 127, 0.35);
-    display: block;
     border:1px solid rgb(103,112,125);
+    margin:0;
+    padding:14px;
+    display:grid;
+    grid-template-columns:1fr 3fr;
+}
+
+.left-column {
+    display:block;
+    background-color: #373e47;
+    width: 218px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), inset -1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+.left-column ul {
+    margin-left: -40px;
+    list-style-type:none;
+}
+
+.left-column>ul > li {
+    padding-left:10px;
+    line-height:30px;
+    border-bottom: 2px solid #4c545e;
+}
+
+.left-column > ul > li:before {
+    vertical-align: middle;
+    margin-right: 10px;
+    line-height: 0px;
+    content: url(/icons/caret-right-fill.svg);
+}
+
+
+.left-column ul > li:last-of-type {
+    border-bottom: none;
+}
+
+.left-column li:hover > ul {
+    opacity: 1;
+    line-height: 30px;
+    transform: scaleY(1);
+}
+
+.left-column li > ul {
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    line-height:0px;
+    transition: .5s ease-in-out;
+}
+
+.left-column .menu-item {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 600;
+    color: #e4e4e4;
+    text-shadow: black 0px 1px;
+    letter-spacing:-0.5px;
 }
 
 .footer {
