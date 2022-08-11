@@ -178,8 +178,6 @@ p {
 
 .left-column a {
     display: block;
-    width: 100%;
-    height: 100%;
 }
 
 .left-column a:hover {
@@ -188,11 +186,16 @@ p {
 
 
 .left-column ul {
-    margin-left: -30px;
+    margin-left: -40px;
     list-style-type: none;
 }
 
-.left-column>ul > li {
+.left-column ul > li > a {
+    padding-left: 40px;
+    margin-left: -30px;
+}
+
+.left-column>ul>li {
     padding-left:10px;
     line-height:30px;
     border-bottom: 2px solid #4c545e;
@@ -204,6 +207,7 @@ p {
     line-height: 0px;
     content: url(/icons/caret-right-fill.svg);
 }
+
 .left-column>ul>li.selected:before {
     content: url(/icons/caret-down-fill.svg);
 }
@@ -258,6 +262,10 @@ p {
     text-decoration:underline;
     display:initial;
     padding-right:16px;
+}
+
+.left-column.notify .notify-link a:hover {
+    color: #ff61d8;
 }
 
 .footer {
