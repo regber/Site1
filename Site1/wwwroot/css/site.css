@@ -180,10 +180,10 @@ p {
     display: block;
 }
 
-.left-column a:hover {
+.left-column li > a:hover, .left-column ul > li:hover {
     color: #7c7c7c;
+    cursor: pointer;
 }
-
 
 .left-column ul {
     margin-left: -40px;
@@ -264,9 +264,7 @@ p {
     padding-right:16px;
 }
 
-.left-column.notify .notify-link a:hover {
-    color: #ff61d8;
-}
+
 
 .footer {
     display: flex;
