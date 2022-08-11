@@ -72,14 +72,29 @@ body {
 
 a {
     color: #ff8de3;
+    text-decoration: underline;
 }
 a:hover {
     color: #ff61d8;
 }
-p {
+p, h6 {
     color: #e4e4e4;
-    font-size:13px;
-    font-family:Arial;
+    font-size: 13px;
+    font-family: Arial;
+    text-shadow: 0px 1px rgba(0, 0, 0, .75);
+    font-weight: 600;
+    letter-spacing:-0.38px;
+    word-spacing: 0.7px;
+
+}
+h6 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 0.85;
+    margin-bottom: 5px;
+    letter-spacing:-0.28px;
+    word-spacing: 1.4px;
 }
 
 
@@ -112,6 +127,7 @@ p {
 
 .header-title a {
     margin-left: 17px;
+    text-decoration: none;
 }
 
 .header-title a:hover {
@@ -140,7 +156,8 @@ p {
 .header-menu a {
     font-size: 14px;
     color: #143567;
-    margin:0 10px;
+    margin: 0 10px;
+    text-decoration: none;
 }
 
 .header-menu .home {
@@ -259,14 +276,18 @@ p {
 }
 
 .left-column.notify .notify-link a {
-    text-decoration:underline;
     display:initial;
     padding-right:16px;
 }
 
 
-
 .footer {
     display: flex;
     justify-content: center;
+}
+
+
+.main-text-block p{
+    font-size:12px;
+    line-height:23px;
 }
