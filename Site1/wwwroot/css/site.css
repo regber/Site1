@@ -342,9 +342,10 @@ h6 {
 .list {
     display:inline-block;
 }
-.list>h6{
-    font-size:14px;
-    letter-spacing:-0.6px;
+.list > h6 {
+    font-size: 14px;
+    letter-spacing: -0.6px;
+    margin-bottom: 11px;
 }
 .list > ul,ol {
     padding-left:15px;
@@ -352,4 +353,7 @@ h6 {
 .list:last-of-type > ul {
     list-style-type: none;
     padding-left:0px;
+}
+.list li{
+    line-height:1.55;
 }
