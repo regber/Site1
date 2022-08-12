@@ -4,4 +4,11 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="wwwroot\content\Новая папка\**" />
+    <Content Remove="wwwroot\content\Новая папка\**" />
+    <EmbeddedResource Remove="wwwroot\content\Новая папка\**" />
+    <None Remove="wwwroot\content\Новая папка\**" />
+  </ItemGroup>
+
 </Project>
