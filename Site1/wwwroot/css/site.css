@@ -70,6 +70,7 @@ body {
     margin-right: auto;
 }
 
+
 a {
     color: #ff8de3;
     text-decoration: underline;
@@ -85,14 +86,15 @@ p, h6 {
     font-weight: 600;
     letter-spacing:-0.38px;
     word-spacing: 0.7px;
+    margin-bottom:22px;
 
 }
 h6 {
     font-size: 18px;
     font-weight: bold;
     color: #ffffff;
-    line-height: 0.85;
-    margin-bottom: 5px;
+    line-height: 0.8;
+    margin-bottom: 8px;
     letter-spacing:-0.28px;
     word-spacing: 1.4px;
 }
@@ -168,11 +170,13 @@ h6 {
 .container {
     border-radius: 4px;
     background-color: rgba(87, 103, 127, 0.35);
-    border:1px solid rgb(103,112,125);
-    margin:0;
-    padding:14px;
-    display:grid;
-    grid-template-columns:1fr 3fr;
+    border: 1px solid rgb(103,112,125);
+    margin: 0;
+    padding: 14px 11px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    min-width: 600px;
+    max-width: 1000px;
 }
 
 .left-column {
@@ -181,6 +185,7 @@ h6 {
     width: 218px;
     border-radius: 4px;
     box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3), inset -1px 2px 0px rgba(0, 0, 0, 0.3);
+    margin-bottom: 24px;
 }
 
 .left-column, .left-column li>a {
@@ -214,7 +219,7 @@ h6 {
 
 .left-column>ul>li {
     padding-left:10px;
-    line-height:30px;
+    line-height:32px;
     border-bottom: 2px solid #4c545e;
 }
 
@@ -282,12 +287,57 @@ h6 {
 
 
 .footer {
+    margin-top:8px;
     display: flex;
     justify-content: center;
 }
 
+.content {
+    padding-left: 20px;
+}
 
 .main-text-block p{
     font-size:12px;
-    line-height:23px;
+    line-height:18px;
+}
+
+.images>h6 {
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: -0.2px;
+    margin-bottom:13px;
+}
+
+.images>div>div {
+    /*display:inline-block;*/
+    width:220px;
+    height:183px;
+    padding: 10px;
+    background-color: #697689;
+}
+.images > div {
+    display: grid;
+    justify-content: center;
+    margin-right:42px;
+    margin-bottom:32px;
+    grid-template-columns:repeat(auto-fit,220px);
+    gap:18px;
+
+}
+.images>img{
+
+}
+
+.lists>h6 {
+    font-size:16px;
+    margin-bottom: 14px;
+}
+.lists>div {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.list>h6{
+    font-size:14px;
+    letter-spacing:-0.6px;
 }
