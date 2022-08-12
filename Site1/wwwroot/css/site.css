@@ -309,7 +309,6 @@ h6 {
 }
 
 .images>div>div {
-    /*display:inline-block;*/
     width:220px;
     height:183px;
     padding: 10px;
@@ -324,8 +323,13 @@ h6 {
     gap:18px;
 
 }
-.images>img{
-
+.images > img {
+    max-width: 200px;
+    max-height: 163px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .lists>h6 {
@@ -336,7 +340,9 @@ h6 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-
+.list {
+    display:inline-block;
+}
 .list>h6{
     font-size:14px;
     letter-spacing:-0.6px;
